@@ -1,0 +1,18 @@
+# General
+target/
+bin/
+
+# IntelliJ
+*.iml
+*.ipr
+*.iws
+.idea/
+overlays/
+#Checkstyle
+*.checkstyle
+
+#Log files
+*.log
+
+#jenv
+.java-version

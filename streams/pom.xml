@@ -5,14 +5,10 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.brian</groupId>
-  <artifactId>kafka_basics</artifactId>
-  <packaging>pom</packaging>
+  <artifactId>streams</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <modules>
-    <module>streams</module>
-  </modules>
 
-  <name>kafka_basics</name>
+  <name>streams</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 

@@ -15,6 +15,7 @@ import org.apache.kafka.streams.kstream.KStream;
  */
 public class Pipe {
     public static void main(String[] args) {
+
         // Streams execution configuration
         Properties props = new Properties();
         props.put(StreamsConfig.APPLICATION_ID_CONFIG, "streams-pipe");

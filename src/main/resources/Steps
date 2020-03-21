@@ -5,6 +5,8 @@
 
 3. Generate schema using SchemaBuilder and save the result to /src/main/avro/user-schema.avsc
 
+4. Copy avro-tools to project root folder
+   and generate User class by "java -jar avro-tools-1.9.2.jar compile schema src/main/avro/user-schema.avsc src/main/java/."
 
 
 

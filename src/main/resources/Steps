@@ -1,0 +1,10 @@
+1. Download avro-tools.jar. For this tutorial, we are using avro-tools-1.9.2.jar which will be used to generate classes based on schema.
+   Download here: https://mirror.olnevhost.net/pub/apache/avro/avro-1.9.2/java/
+
+2. Add avro to the maven and plugins for auto generated classes.
+
+
+
+
+
+Tutorial from : https://avro.apache.org/docs/1.8.1/gettingstartedjava.html

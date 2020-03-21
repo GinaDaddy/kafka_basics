@@ -8,6 +8,7 @@
 4. Copy avro-tools to project root folder
    and generate User class by "java -jar avro-tools-1.9.2.jar compile schema src/main/avro/user-schema.avsc src/main/java/."
 
-
+5. Serialize Users to disk and deserialize users from disk
+   mvn -q exec:java -Dexec.mainClass=com.brian.avro.UserSerializationWithCodeGeneration
 
 Tutorial from : https://avro.apache.org/docs/1.8.1/gettingstartedjava.html

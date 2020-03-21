@@ -11,4 +11,7 @@
 5. Serialize Users to disk and deserialize users from disk
    mvn -q exec:java -Dexec.mainClass=com.brian.avro.UserSerializationWithCodeGeneration
 
+6. Serialize/Deserialize without code generation which means that we can do both without auto-generated class User.
+   Instead we can use Schema and in this case, we need to use GenericRecord.
+
 Tutorial from : https://avro.apache.org/docs/1.8.1/gettingstartedjava.html

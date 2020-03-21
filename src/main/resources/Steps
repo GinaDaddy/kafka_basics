@@ -3,6 +3,7 @@
 
 2. Add avro to the maven and plugins for auto generated classes.
 
+3. Generate schema using SchemaBuilder and save the result to /src/main/avro/user-schema.avsc
 
 
 
